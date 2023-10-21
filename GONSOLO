@@ -1,0 +1,3 @@
+mkdir gonsolo
+cd gonsolo
+cmake -G Ninja  -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_PROJECTS="clang;lldb". -S ../llvm
